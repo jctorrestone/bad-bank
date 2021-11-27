@@ -14,7 +14,7 @@ The purpose of this project is only for practicing and improving development ski
 8. If you want to check the raw data you can go to http://localhost:8080/account/all
 
 ## Screenshots
-![alt text](https://drive.google.com/file/d/1GQxqSZsbiKl81lnurPghdG8WX2v8STgF/view?usp=sharing)
+![alt text](https://drive.google.com/uc?export=view&id=1GQxqSZsbiKl81lnurPghdG8WX2v8STgF)
 
 ## Technology used
 1. Languages: HTML, JS and CSS.
