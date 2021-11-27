@@ -26,6 +26,7 @@ The purpose of this project is only for practicing and improving development ski
 3. Ability to deposit money
 4. Ability to withdraw money
 5. Ability to check the data of every user (Transactions that every user has made, is shown)
+
 TODO: 
 - Refactor the login with the use of firebase
 - Authorized the express routes and hide the respective components that shouldn't be shown to unauthorized users.
