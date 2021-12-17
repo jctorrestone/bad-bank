@@ -7,15 +7,15 @@ test('missing name field',() => {
     const {getByText,getByPlaceholderText,getByRole} = render(<CreateAccount/>);
   
     const name = getByPlaceholderText('Enter name');
-    //const email = getByPlaceholderText('Enter email');
-    //const password = getByPlaceholderText('Enter password');
+    const email = getByPlaceholderText('Enter email');
+    const password = getByPlaceholderText('Enter password');
     fireEvent.change(name, {target:{value: ''}});
-    //fireEvent.change(email, {target:{value: ''}});
-    //fireEvent.change(password, {target:{value: ''}});
+    fireEvent.change(email, {target:{value: 'jose@gmail.com'}});
+    fireEvent.change(password, {target:{value: 'secret'}});
 
     fireEvent.click(getByRole('button'));
 
-    getByText('Error: name');
+    getByText('Error: name is empty.');
 });
 
 test('add account', () => {
