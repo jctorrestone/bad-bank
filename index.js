@@ -99,8 +99,5 @@ app.get('/account/all', function (req, res) {
 });
 
 var port = 8080;
-const server = app.listen(process.env.PORT || port, () => {
-    const port = server.address().port;
-    console.log(`Express is working on port ${port}`);
-});
+app.listen(port);
 console.log('Running on port: ' + port);
