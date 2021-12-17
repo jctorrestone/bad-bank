@@ -5,5 +5,5 @@ import App from './App';
 test('Checking for text (Create Account) in navbar', () => {
   const {getByText,getByLabelText} = render(<App/>);
   
-  fireEvent.click(getByText('Create Account'));
+  fireEvent.click(getByText('Create Accounts'));
 });
