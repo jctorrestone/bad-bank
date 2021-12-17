@@ -1,5 +1,5 @@
 import React from "react";
-import {UserContext, Card} from './context'
+import {Card} from './context'
 
 function CreateAccount(){
   const [show, setShow]         = React.useState(true);
